@@ -11,6 +11,12 @@
     <dimen name="margin_vertical">224dp</dimen>
     <dimen name="margin_top_introduce_layout">66dp</dimen>
     <dimen name="margin_top_continue_button">27dp</dimen>
+    <dimen name="introduce_text_size_title">90sp</dimen>
+    <dimen name="introduce_text_size_version">22sp</dimen>
+    <dimen name="introduce_margin_top_title">250dp</dimen>
+    <dimen name="introduce_margin_left_title">70dp</dimen>
+    <dimen name="introduce_margin_left_subtitle">180dp</dimen>
+    <dimen name="introduce_margin_bottom_version">60dp</dimen>
     <!--Endregion Introduce-->
 
     <!--Region Home-->
