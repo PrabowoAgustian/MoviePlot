@@ -1,5 +1,28 @@
 <resources>
     <string name="app_name">MovieApp</string>
+
+    <!--Region Splashscreen-->
     <string name="splash_title">Movie</string>
     <string name="splash_subtitle">Plot</string>
+    <!--Endregion Splashscreen-->
+
+    <!--Region Introduce-->
+    <string name="introduce_title_input_name">Hi! Iam your navigator.
+        Please pick a nickname.</string>
+    <string name="introduce_button">Continue</string>
+    <string name="introduce_title_continue">Nice to meet you Jarvis! Now you can continue.</string>
+    <!--Endregion Introduce-->
+
+    <!--Region Home-->
+    <string name="home_good_evening">Good Evening,</string>
+    <string name="home_popular_movie">Popular Movie</string>
+    <string name="home_upcoming_movie">Upcoming Movie</string>
+    <!--Endregion Home-->
+
+    <!--Region Detail Movie-->
+    <string name="detail_movie_title_id">IMDB ID:</string>
+    <string name="detail_movie_title_vote">Vote:</string>
+    <string name="detail_movie_title_description">Description:</string>
+    <string name="detail_movie_title_comments">Comments</string>
+    <!--Endregion Detail Movie-->
 </resources>

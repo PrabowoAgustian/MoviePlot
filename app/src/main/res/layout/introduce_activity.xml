@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/lime_green">
+
+    <RelativeLayout
+        android:id="@+id/rlInputName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_horizontal"
+        android:layout_marginVertical="@dimen/margin_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgInputName"
+            android:layout_width="@dimen/width_image_introduce"
+            android:layout_height="@dimen/height_image_introduce"
+            android:src="@drawable/img_smile"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/titleInputName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgInputName"
+            android:layout_alignBottom="@+id/imgInputName"
+            android:layout_marginLeft="@dimen/margin_left_text_title"
+            android:text="@string/introduce_title_input_name"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgArrow"
+            android:layout_width="@dimen/size_image_arrow_introduce"
+            android:layout_height="@dimen/size_image_arrow_introduce"
+            android:layout_toRightOf="@+id/imgInputName"
+            android:layout_below="@id/titleInputName"
+            android:src="@drawable/ic_arrow"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left_input_name"
+            android:layout_marginRight="@dimen/margin_right_input_name"
+            android:layout_toRightOf="@+id/imgArrow"
+            android:layout_below="@id/titleInputName"
+            android:background="@null"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlIntroduceContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_introduce_layout"
+        android:layout_marginHorizontal="@dimen/margin_horizontal"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/rlInputName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="gone">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgIntroduceContinue"
+            android:layout_width="@dimen/width_image_introduce"
+            android:layout_height="@dimen/height_image_introduce"
+            android:src="@drawable/img_smile_continue"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/titleIntroduceContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgIntroduceContinue"
+            android:layout_alignBottom="@+id/imgIntroduceContinue"
+            android:layout_marginLeft="@dimen/margin_left_text_title"
+            android:text="@string/introduce_title_continue"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_continue_button"
+            android:layout_toRightOf="@+id/imgIntroduceContinue"
+            android:layout_below="@id/titleIntroduceContinue"
+            android:background="@drawable/button_shape"
+            android:text="@string/introduce_button"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

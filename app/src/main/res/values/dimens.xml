@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Region Introduce-->
+    <dimen name="height_image_introduce">65dp</dimen>
+    <dimen name="width_image_introduce">66dp</dimen>
+    <dimen name="margin_left_text_title">9dp</dimen>
+    <dimen name="size_image_arrow_introduce">32dp</dimen>
+    <dimen name="margin_left_input_name">7dp</dimen>
+    <dimen name="margin_right_input_name">16dp</dimen>
+    <dimen name="margin_horizontal">32dp</dimen>
+    <dimen name="margin_vertical">224dp</dimen>
+    <dimen name="margin_top_introduce_layout">66dp</dimen>
+    <dimen name="margin_top_continue_button">27dp</dimen>
+    <!--Endregion Introduce-->
+
+    <!--Region Home-->
+    <dimen name="height_toolbar_home">127dp</dimen>
+    <dimen name="text_size_toolbar">20sp</dimen>
+    <dimen name="margin_horizontal_text_toolbar">44dp</dimen>
+    <dimen name="margin_top_text_toobar">33dp</dimen>
+    <dimen name="margin_top_text_name_toolbar">10dp</dimen>
+    <dimen name="margin_top_popular_movie">23dp</dimen>
+    <dimen name="home_margin_horizontal">16dp</dimen>
+    <dimen name="home_text_size_title_movie">30sp</dimen>
+    <dimen name="home_width_line">226dp</dimen>
+    <dimen name="home_height_line">6dp</dimen>
+    <dimen name="home_margin_top_line">36dp</dimen>
+    <dimen name="home_margin_top_upcoming_movie_title">9dp</dimen>
+    <!--Endregion Home-->
+
+    <!--Region Informasi Detail Movie-->
+    <dimen name="detail_movie_height_image_movie">250dp</dimen>
+    <dimen name="detail_movie_content_margin_top">24dp</dimen>
+    <dimen name="detail_movie_content_margin_horizontal">39dp</dimen>
+    <dimen name="detail_movie_margin_top_subtitle">35dp</dimen>
+    <dimen name="detail_movie_text_size_title">25sp</dimen>
+    <dimen name="detail_movie_text_size_subtitle">15sp</dimen>
+    <dimen name="detail_movie_margin_top_id">20dp</dimen>
+    <dimen name="detail_movie_margin_bottom_content">8dp</dimen>
+    <dimen name="detail_movie_margin_top_title_comments">27dp</dimen>
+    <dimen name="detail_movie_text_size_title_comments">25sp</dimen>
+    <!--Endregion Informasi Detail Movie-->
+</resources>
